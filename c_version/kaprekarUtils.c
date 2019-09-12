@@ -22,6 +22,7 @@
  * @return <code>true</code> if <code>n</code> is a Kaprekar Number,
  * <code>false</code> otherwise.
  */
+
 int isKaprekar(int n) {
 
   if(n < 1) {
@@ -39,7 +40,7 @@ int isKaprekar(int n) {
   //for each possible "split" of the square...
   for(i=1; i<=numberOfDigits; i++) {
     //increase the modulus by a factor of 10
-    modulus *= 10; //fixed typo
+    modulus = 10; //fixed typo and removed *
 
     //split the square into two parts
     first = square / modulus;
