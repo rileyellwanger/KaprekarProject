@@ -20,8 +20,8 @@ int main(int argc, char **argv) {
 
   //number of Kaprekar Numbers between [1, 100,000]
   int numKaprekarNumbers = 24;
-  int kaprekarNumbers = {1, 9, 45, 55, 99, 297, 703, 999, 2223, 2728, 4879, 4950, 5050, 5292, 7272, 7777, 9999, 17344, 22222, 38962, 77778, 82656, 95121, 99999};
-  //removed brackets from variable name in above line
+  int kaprekarNumbers[] = {1, 9, 45, 55, 99, 297, 703, 999, 2223, 2728, 4879, 4950, 5050, 5292, 7272, 7777, 9999, 17344, 22222, 38962, 77778, 82656, 95121, 99999};
+
   int numCorrect = 0;
   int numWrong   = 0;
   int i;
